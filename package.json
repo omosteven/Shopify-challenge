@@ -1,0 +1,23 @@
+{
+    "name": "Shopify",
+    "version": "1.0.0",
+    "description": "This is an image repository app",
+    "main": "index.js",
+    "scripts": {
+        "test": "npm run test",
+        "start": "node index.js"
+    },
+    "author": "Steven Omole-Adebomi",
+    "license": "ISC",
+    "dependencies": {
+        "axios": "^0.21.1",
+        "bcryptjs": "^2.4.3",
+        "body-parser": "^1.19.0",
+        "cors": "^2.8.5",
+        "express": "^4.17.1",
+        "form-data": "^3.0.0",
+        "jsonwebtoken": "^8.5.1",
+        "multer": "^1.4.2",
+        "validator": "^13.5.2"
+    }
+}
